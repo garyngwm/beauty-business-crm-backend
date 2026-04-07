@@ -1,0 +1,11 @@
+# Project direct dependencies (no version) 
+# Handwritten 
+
+fastapi 
+python-dotenv
+supabase 
+uvicorn 
+stripe
+# If not the render deployment complains 
+pydantic[email]
+cryptography
