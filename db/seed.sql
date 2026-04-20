@@ -78,14 +78,14 @@ ON CONFLICT (service_id, outlet_id) DO NOTHING;
 -- Staffs
 INSERT INTO staffs (id, first_name, last_name, email, phone, role, bookable,active)
 VALUES
-  (1, 'Sarah', 'Adams', 'sarah@beautybook.com', '91234567', 'Senior Therapist', true, true),
-  (2, 'Maria', 'Johnson', 'maria@beautybook.com', '92345678', 'Nail Specialist', true, true),
-  (3, 'Jennifer', 'Kim', 'jennifer@beautybook.com', '93456789', 'Massage Therapist', false, true),
-  (4, 'Natalie', 'Leong', 'natalie@beautybook.com', '96789012', 'Facial Specialist', false, false),
-  (5, 'Lisa', 'Wong', 'lisa@beautybook.com', '94567890', 'Senior Therapist', true, false),
-  (6, 'Rachel', 'Tan', 'rachel@beautybook.com', '95678901', 'Facial Specialist', true, false),
-  (7, 'Shireen', 'Ling', 'shireen@beautybook.com', '97890123', 'Beauty Therapist', false, true),
-  (8, 'Chloe', 'Mok', 'chloe@beautybook.com', '98901234', 'Aesthetician', true, false)
+  (1, 'Sarah', 'Adams', 'sarah@example.com', '91234567', 'Senior Therapist', true, true),
+  (2, 'Maria', 'Johnson', 'maria@example.com', '92345678', 'Nail Specialist', true, true),
+  (3, 'Jennifer', 'Kim', 'jennifer@example.com', '93456789', 'Massage Therapist', false, true),
+  (4, 'Natalie', 'Leong', 'natalie@example.com', '96789012', 'Facial Specialist', false, false),
+  (5, 'Lisa', 'Wong', 'lisa@example.com', '94567890', 'Senior Therapist', true, false),
+  (6, 'Rachel', 'Tan', 'rachel@example.com', '95678901', 'Facial Specialist', true, false),
+  (7, 'Shireen', 'Ling', 'shireen@example.com', '97890123', 'Beauty Therapist', false, true),
+  (8, 'Chloe', 'Mok', 'chloe@example.com', '98901234', 'Aesthetician', true, false)
 ON CONFLICT (id) DO NOTHING;
 
 
