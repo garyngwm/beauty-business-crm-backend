@@ -1,4 +1,4 @@
-# Kosme business hours
+# Default business hours
 WEEKDAY_OPENING = "11:00"
 WEEKEND_OPENING = "10:00"
 
